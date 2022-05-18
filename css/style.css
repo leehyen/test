@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+*{ /*페이지전체*/
+    margin: 0 auto; /*좌우 바깥 여백을 자동할당 시켜서 중앙 정렬한다*/
+    padding: 0; /*안쪽 여백 없도록 설정*/
+    list-style: none; /*목록태그(ul,li,ol)의 기본스타일 아무것도 없는것으로 설정*/
+    font-family: "맑은고딕";
+}
+
+a{color: inherit; text-decoration: none;}
+button{cursor: pointer;}
+body, html{min-width: 960px;}
+
+.all{width: 100%;float: left;}
+.wrap{width: 960px;}
+
+.clear{clear: both;position:inherit;}
+/*clear:both : 태그들이 지정역역 밖으로 나가지 않게 하는 속성*/
+
+header{height: 150px;background-color: lightblue;}
+
+#header_div{}
+
+#imgslide{height: 400px;background-color: lightcoral;}
+
+#contents{height: 500px;background-color: lightcyan;}
+
+footer{height: 150px;width: 960px;overflow: hidden;background-color: lightgoldenrodyellow;}
